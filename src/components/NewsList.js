@@ -7,7 +7,7 @@ const NewsList = () => {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/top-headlines?country=us&apiKey=276ea5b4a2634ff5be80c74fc059c916"
+        "https://newsapi.org/v2/top-headlines?country=us&apiKey=<API_KEY>"
       )
       .then((response) => {
         console.log("API Response:", response.data) // Debugging step
