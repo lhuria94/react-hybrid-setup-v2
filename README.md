@@ -31,6 +31,16 @@ This project demonstrates a hybrid approach to server-side rendering (SSR) and c
 - Webpack for bundling assets
 - Context API for state management
 
+## Rendering Approaches
+
+### Client-Side Rendering (CSR)
+
+The **NewsList** component fetches and renders news dynamically on the client side using React hooks and Axios. This allows for real-time data retrieval and updates without requiring a page reload.
+
+### Server-Side Rendering (SSR)
+
+The **BreakingNews** component demonstrates an SSR approach, where breaking news headlines are pre-rendered on the server and delivered as part of the initial HTML payload. This enhances performance and SEO.
+
 ## Prerequisites
 
 Ensure you have the following installed:
